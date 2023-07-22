@@ -1,0 +1,48 @@
+# SITE CONFIGURATION
+title: InvestiLogi USA
+description: >
+  ABD yatırımlarınız artık çok kolay. ABD’de lojistik ve emlak sektörlerinde yatırım danışmanlığınız için bizimle irtibata geçebilirsiniz.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://investilogiusa.com/
+
+# THEME SETTINGS
+tagline: Yatırımlarınız Bizimle Kolay
+navigation:
+  - {name: 'Anasayfa', link: '/'}
+  - {name: 'Hakkımızda', link: '/about'}
+  - {name: 'İletişim', link: '/contact'}
+email: investilogiusa@gmail.com  # email for form submission
+# github_username: investmentiq
+instagram_username: cem077
+twitter_username: investilogiusa
+# disqus:
+#   shortname:  # uncomment to enable comments
+# google_tag_manager: GTM-XXXXXXX  # uncomment to enable GTM.
+# service_worker: true
+
+# BUILD SETTINGS
+# theme: jekyll-keels  # uncomment to use the theme as a ruby gem
+# remote_theme: juseg/keels  # uncomment to use as a remote theme
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
+include:
+  - _pages
+permalink: /:title/
+compress_html:
+  clippings: all
+
+# JEKYLL PLUGINS
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-sass-converter
