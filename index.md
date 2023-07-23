@@ -1,9 +1,14 @@
 ---
+
+#
+# You don't need to edit this file, it's empty on purpose.
+# Edit sleeks's default layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
 layout: default
 title: ABD’ye açılan kapınız.
 featured-img: sleek
 ---
-
 <script>
   // Get the user's browser language
   const userLanguage = navigator.language || navigator.userLanguage;
@@ -17,9 +22,3 @@ featured-img: sleek
     window.location.replace("https://investilogiusa.com");
   }
 </script>
-
-#
-# You don't need to edit this file, it's empty on purpose.
-# Edit sleeks's default layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
