@@ -15,10 +15,10 @@ featured-img: sleek
 
   // Check if the user's language is Turkish ("tr")
   if (userLanguage.startsWith("tr")) {
-    // Redirect to the Turkish site (https://investilogiusa.com/tr)
-    window.location.replace("https://investilogiusa.com/tr");
-  } else {
-    // Redirect to the English site (https://investilogiusa.com)
+    // Redirect to the Turkish site (https://investilogiusa.com)
     window.location.replace("https://investilogiusa.com");
+  } else {
+    // Redirect to the English site (https://en.investilogiusa.com)
+    window.location.replace("https://en.investilogiusa.com");
   }
 </script>
