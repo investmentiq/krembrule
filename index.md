@@ -4,18 +4,31 @@ title: ABD’ye açılan kapınız.
 featured-img: sleek
 ---
 
-<!-- Language switcher links -->
-<p>Choose your language:</p>
-<ul id="language-switcher">
-  <li><a href="https://investilogiusa.com" hreflang="tr" onclick="hideLinks(event)">Türkçe</a></li>
-  <li><a href="https://en.investilogiusa.com" hreflang="en" onclick="hideLinks(event)">English</a></li>
-</ul>
-
-<!-- JavaScript to hide links when Turkish is selected -->
 <script>
-  function hideLinks(event) {
-    event.preventDefault(); // Prevent the link from navigating to the href URL
-    var languageSwitcher = document.getElementById("language-switcher");
-    languageSwitcher.style.display = "none";
+  // Function to check if the user's locale is Turkish
+  function isTurkishLocale() {
+    return navigator.language.toLowerCase().startsWith('tr');
   }
+
+  // Function to check if the user's IP is from Turkey
+  async function isTurkishIP() {
+    const response = await fetch('https://api.ipregistry.co/?key=YOUR_IP_REGISTRY_API_KEY');
+    const data = await response.json();
+    return data?.location?.country?.code === 'TR';
+  }
+
+  // Function to redirect based on user's locale and geolocation
+  async function redirectBasedOnLocaleAndGeolocation() {
+    const isTurkishLocaleSelected = isTurkishLocale();
+    const isTurkishIPDetected = await isTurkishIP();
+
+    if (isTurkishLocaleSelected || isTurkishIPDetected) {
+      window.location.href = 'https://investilogiusa.com';
+    } else {
+      window.location.href = 'https://en.investilogiusa.com';
+    }
+  }
+
+  // Call the redirect function when the page loads
+  document.addEventListener('DOMContentLoaded', redirectBasedOnLocaleAndGeolocation);
 </script>
