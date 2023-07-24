@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ABD’ye açılan kapınız.
+title: ABD'ye Açılan Yatırım Kapınız
 featured-img: sleek
 ---
 
