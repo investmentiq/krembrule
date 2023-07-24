@@ -1,13 +1,3 @@
-<style>
-  /* CSS to style the language selector */
-  .header__language-selector {
-    display: flex;
-    align-items: center;
-    gap: 8px; /* Adjust the gap between flag icon and country code as needed */
-  }
-  
-</style>
-
 <header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
   <div class="container">
     <div class="header__inner">
@@ -27,23 +17,12 @@
               <span itemprop="name">{{ item.name }}</span>
             </a>
           {% endfor %}
+          <!-- Language Selector for English site -->
+          <a class="header__link" href="https://en.investilogiusa.com">
+            <span itemprop="name">English</span>
+          </a>
         </div>
       </nav>
-      <!-- Language Selector with World Logos -->
-      <div class="header__language-selector">
-        <a href="https://investilogiusa.com">
-          <div>
-            <img src="{{ '/tr24pxl.png' | relative_url }}" alt="TR" />
-          </div>
-          <div>TR</div>
-        </a>
-        <a href="https://en.investilogiusa.com">
-          <div>
-            <img src="{{ '/us24pxl.png' | relative_url }}" alt="US" />
-          </div>
-          <div>US</div>
-        </a>
-      </div>
       <div class="header__toggle">
         <span></span>
         <span></span>
