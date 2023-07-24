@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://investilogiusa.com/
 
 # THEME SETTINGS
-tagline: Yatırımlarınızı Kolaylaştırıyoruz
+tagline: Yatırımlarınızı kolaylaştırıyoruz
 navigation:
   - {name: 'Anasayfa', link: '/'}
   - {name: 'Hakkımızda', link: '/about'}
