@@ -11,7 +11,7 @@ navigation:
   - {name: 'Anasayfa', link: '/'}
   - {name: 'Hakkımızda', link: '/about'}
   - {name: 'İletişim', link: '/contact'}
-email: investilogiusa@gmail.com  # email for form submission
+email: info@investilogiusa.com  # email for form submission
 # github_username: investmentiq
 instagram_username: cem077
 twitter_username: investilogiusa
