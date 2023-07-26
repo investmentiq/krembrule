@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ABD'ye Açılan Yatırım Kapınız
+title: ABD'ye Açılan Lojistik ve emlak kapınız
 featured-img: sleek
 ---
 
