@@ -7,26 +7,55 @@ permalink: /contact/
 
 
 
-## Bizimle İletişime Geçin
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-Aşağıdaki formu doldurarak veya [email göndererek](mailto:{{site.email}}) ekibimize ulaşabilirsiniz. Sizden haber almak bizi mutlu eder!
+<body>
+  
+    <p>Sorularınız, talepleriniz veya geri bildirimleriniz için iletişime geçebileceğiniz yöntemler aşağıda belirtilmiştir:</p>
+			<br>
+
+    <ul>
+        <li class="contact-method">
+            <strong>İletişim Formu:</strong>
+            Size daha hızlı ve etkili bir yanıt sunabilmemiz için, iletişim formumuzu kullanarak bize ulaşabilirsiniz. Formu
+            doldurun ve mesajınızı gönderin.
+			<br>
+			<br>
+			
+        </li>
+        <li class="contact-method">
+            <strong>E-posta:</strong>
+            Doğrudan bize yazmak isterseniz, e-posta adresimiz:
+            <a href="mailto:{{site.email}}">{{site.email}}</a>. Tüm sorularınızı ve isteklerinizi değerlendireceğimizden
+            emin olabilirsiniz.
+			<br>
+				<br>
+        </li>
+        <li class="contact-method">
+            <strong>Telefon:</strong>
+            Müşteri hizmetleri ekibimize bu
+            numaradan ulaşabilirsiniz: <a href="tel:+13052099428">+13052099428</a>.
+			<br>
+				<br>
+        </li>
+        <li class="contact-method">
+            <strong>WhatsApp:</strong>
+            WhatsApp üzerinden ulaşmak isterseniz WhatsApp numaramız:
+            <a href="https://wa.me/13052099428" target="_blank">+13052099428</a>.
+				<br>
+					<br>
+        </li>
+    </ul>
+
+    <p>ABD'de lojistik yatırımınıza kapı açmak için sabırsızlanıyoruz. <p>
+     
+
+ 
 
 &nbsp;
 
 {% include form.html %}
 
-&nbsp;
-
-E-posta adresinden [{{site.email}}](mailto:{{site.email}}) doğrudan bize e-posta gönderebilir, ayrıca telefonla ya da WhatsApp uygulaması üzerinden de iletişime geçebilirsiniz.
-
-Tel: +1.305.209.9428
-
-<div class="contact">
-  <a href="https://wa.me/message/7IIQIES4R32RA1" target="_blank">
-    <img src="/whatsapp-24.ico" alt="WhatsApp Logo"> WhatsApp: +1 305.209.9428
-  </a>
-</div>
 <!-- Add line break to skip a paragraph -->
 <br>
 <br>
