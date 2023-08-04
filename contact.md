@@ -53,6 +53,6 @@ permalink: /contact/
 <br>
 <br>
 <br>
-<strong>InvestiLogiUSA</strong> Miami, FL, USA
+<strong>InvestiLogiUSA</strong> Miami, FL, ABD
 
 {% include modal.html %}
