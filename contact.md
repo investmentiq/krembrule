@@ -7,7 +7,7 @@ permalink: /contact/
 
 ## İletişim Formu:
 <br>
-#### Size daha hızlı ve etkili bir yanıt sunabilmemiz için aşağıdaki iletişim formumuzu kullanbilirsiniz.
+#### Size daha hızlı ve etkili bir yanıt sunabilmemiz için aşağıdaki iletişim formumuzu kullanabilirsiniz.
 
 <br>
 			<br>
