@@ -47,7 +47,7 @@ permalink: /contact/
         </li>
     </ul>
 
-    <p>ABD'de lojistik yatırımınıza kapı açmak için sabırsızlanıyoruz. <p>
+    <p>ABD'de lojistik yatırımınıza kapı açıyoruz. <p>
      
 
  
